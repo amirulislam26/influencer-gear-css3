@@ -1,6 +1,9 @@
 .products{
     padding-right: 700px;
 }
+.span-title:hover{
+    color: springgreen;
+}
 nav{
     display: flex;
     justify-content:first baseline;
@@ -33,6 +36,10 @@ h2{
     display: flex;
     margin-top: 50px;
 }
+.container-title:hover{
+    transform: scale(1.2) skew(0deg);
+    transition: transform 1s ease-in;
+}
 .raiting-site{
     padding-left: 20px;
 }
@@ -41,7 +48,9 @@ h2{
     transition: transform 1s ease-in;
 }
 .images-site{
-    padding-left: 200px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    padding-left: 60px;
 }
 /* .............................. */
 .main-detile{
@@ -67,7 +76,7 @@ h2{
     align-items: center;
     border: 1px dotted wheat;
     padding: 15px;
-    width:  0 auto;
+    margin-top: 50px;
 }
 .fa-star.filled{
     color: 
@@ -92,10 +101,45 @@ h2{
     padding-left: 25px;
     padding-right: 25px;
 }
+.lest-container:hover{
+    transform: scale(1.2) skew(0deg);
+    transition: transform 1s ease-in;
+}
 .lest-container{
     display: flex;
     margin-top: 25px;
     padding-left: 80px;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+margin-top: 50px;
+}
+.login-form input{
+    margin-top: 1em;
+    font-size: 1.5em;
+    padding: 5px, 10px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.submit{
+background-color: gold;
+border-radius: 5px;
+border: 0px;
+color: whitesmoke;
+}
+.submit:hover{
+    background-color: springgreen;
+    color: #E02C6D;
 }
 .footer-title{
     color: #E02C6D;
