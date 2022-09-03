@@ -1,0 +1,106 @@
+.products{
+    padding-right: 700px;
+}
+nav{
+    display: flex;
+    justify-content:first baseline;
+    justify-content:end;
+    background-color:wheat;
+    padding: 25px;
+}
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: royalblue;
+}
+.btn-title{
+    color: white;
+    background-color: #E02C6D;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px;
+}
+h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.container{
+    display: flex;
+    margin-top: 50px;
+}
+.raiting-site{
+    padding-left: 20px;
+}
+.images-site:hover{
+    transform: scale(1.2) skew(0deg);
+    transition: transform 1s ease-in;
+}
+.images-site{
+    padding-left: 200px;
+}
+/* .............................. */
+.main-detile{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 70px;
+    
+    }
+.container-title{
+    margin-top: 100px;
+}
+.container-detile{
+    box-shadow: 10px 10px 60px rgb(237, 236, 233);
+    padding: 25px;
+   width: 75%;
+   border-radius: 5px;
+
+}
+.icons-frame{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted wheat;
+    padding: 15px;
+    width:  0 auto;
+}
+.fa-star.filled{
+    color: 
+    #FFC014;
+}
+.fa-star.empty{
+    color: 
+    
+#AEAEAE;
+}
+.lest-par{
+    color: #E02C6D;
+}
+.lest-pars{
+    color: white;
+    background-color: #E02C6D;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.padding-item{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.lest-container{
+    display: flex;
+    margin-top: 25px;
+    padding-left: 80px;
+}
+.footer-title{
+    color: #E02C6D;
+    text-align: center;
+    background-color: #0A0826;
+    padding: 50px;
+    margin-top: 30px;
+}
